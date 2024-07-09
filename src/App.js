@@ -34,8 +34,8 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="/" element={<Login />} />
-        <Route path="/home" element={<Home />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/deshboard" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/decoration" element={<Decoration />} />
         <Route path="/bridewear" element={<Bridewear />} />
